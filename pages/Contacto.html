@@ -1,0 +1,118 @@
+<!-- Inicio de la página -->
+<!DOCTYPE html>
+<html lang="es">
+
+<!-- Título de pestaña-->
+<head>
+<meta charset="UTF-8">
+<link rel="shortcut icon" href="../assets/img/Logo SEE.png" />
+<title>Contacto</title>
+</head>
+
+<!-- vincula hoja de estilos-->
+<link rel="stylesheet" href="../css/styles.css">
+
+<!--Contenedor 1: Encabezado-->
+<body>
+  <section class="header">
+    <div class="imagen">
+    <img src="../assets/img/logoW.png" class="logo"/></div>
+    <div class=" title">
+    <h1>Soporte Empresarial Especializado</h1> <br/>
+    <h3>División Asesoría Inmobiliaria</h3>
+    </div>
+  </section>
+
+<!--Contenedor 2: Menú-->
+  <div class="menu">
+    <ul class="li">
+    <li><a href="../index.html">Inicio</a></li>
+    <li><a href="../pages/Nosotros.html">Nosotros</a></li>
+    <li><a href="../pages/Servicios.html">Servicios</a></li>
+    <li><a href="../pages/Portafolios.html">Portafolios</a></li>
+    <li>Contacto</li>
+    </ul>
+    <br />
+  </div>
+
+  <!--Contenedor 3: Cuerpo de la página-->
+  <div class="legend">
+  Contáctenos a través de nuestras redes sociales
+  <br />
+  <br />
+  <img src="../assets/img/redes.png" width="160" />
+  </div>
+  <br />
+
+  <!-- Formulario -->
+  <section class="formulario">
+    <form>
+      <label for="nombre">
+        Nombre y apellido
+      </label>
+      <br />
+      <input type="text" id="nombre_y_apellido" placeholder="Nombre y apellido" maxlength="255" />
+      <br />
+      <label for="telefono">
+        Teléfono
+      </label>
+      <br />
+      <input type="tel" id="telefono" placeholder="Telefono a 10 dígitos" maxlength="10" />
+      <br />
+      <label for="mail">
+        e-mail
+      </label>
+      <br />
+      <input type="email" id="mail" placeholder="Correo electrónico" />
+      <br />
+      <label>
+        Estado
+      </label>
+      <br />
+      <select>
+        <option selected="selected">Selecciona una Estado</option>
+        <option>Ciudad de México</option>
+        <option>Interior de la república</option>
+      </select>
+      <br /><br />
+      <label>
+        Tipo de proyecto
+      </label>
+      <br />
+      <span>Habitacional</span>
+      <input type="radio" name="opcion" value="Habitacional" />
+      <span>Comercial</span>
+      <input type="radio" name="opcion" value="Comercial" />
+      <span>Mixto</span>
+      <input type="radio" name="opcion" value="Mixto" />
+      <br />
+      ¿Por qué medio se enteró de nosotros?
+      </label>
+      <br />
+      <span>Publicidad</span>
+      <input type="checkbox" name="publicidad" />
+      <span>Recomendación</span>
+      <input type="checkbox" name="recomendacion" />
+      <span>Otro medio</span>
+      <input type="checkbox" name="otro" />
+      <br />
+      <label for="descrición">
+        Describa brevemente su proyecto
+      </label>
+      <br />
+      <textarea id="comentarios" rows="10" cols="60"></textarea>
+      <br />
+      <input type="submit" />
+      <input type="reset" />
+    </form>
+  </section>
+</body>
+
+<!--Contenedor 4: Pie página-->
+<div id="h5">
+  <br />
+  <h5>© Derechos reservados 2022
+  <br />
+  <a href="mailto:contacto@regimendecondominio.com">contacto@regimendecondominio.com</a></h5>
+  </div>
+  </html>
