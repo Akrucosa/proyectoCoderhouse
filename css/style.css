@@ -60,12 +60,11 @@ body, html {
 
 .menu {
   position: absolute;
-  width: 40%;
   height: 10px;
   display: flex;
   flex-direction: row;
   margin-top: 40%;
-  margin-left: 27.5%;
+  margin-left: 31%;
   justify-content: space-evenly;
   flex-wrap: nowrap;
 }
@@ -100,12 +99,11 @@ div h5 {
   display: flex;
   flex-direction: column;
   margin-top: 47.5%;
-  margin-left: 27.5%;
+  margin-left: 27%;
   justify-content: space-evenly;
   flex-wrap: nowrap;
-  /* width: 750px; */
-  /* margin-left: 250px; */
   font-family: Arial, Helvetica, sans-serif;
+  font-size: smaller;
   color: rgb(45,54,142);
   text-align: center;
   line-height: 1.5em;
