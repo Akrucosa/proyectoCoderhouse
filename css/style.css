@@ -37,7 +37,7 @@ body, html {
 
 .título {
   font-family: architecture;
-  font-size: 400%;
+  font-size: 3.5em;
   line-height: 1em;
   font-variant: small-caps;
   color: #4D4C7D;
@@ -49,12 +49,12 @@ body, html {
 
   .subtitulo {
     font-family: metrostyle;
-    font-size: 24px;
+    font-size: 1.5em;
     font-weight: normal;
     color: #4D4C7D;
     text-align: start;
     position: absolute;
-    margin-top: 23.5%;
+    margin-top: 23%;
     margin-left: 40%;
   }
 
@@ -69,27 +69,15 @@ body, html {
   flex-wrap: nowrap;
 }
 
-.menu li {
-  padding-top: .5em;
-  padding-bottom: .5em;
-  padding-left: 1em;
-  padding-right: 1em;
-  display: inline;
-  width: 20%;
-  background-color: #e9d5da;
-  border-radius: 05px;
-  padding-top: 10px;
-  position: relative;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  text-align: center;
-  color: rgb(45,54,142);
-  list-style-type: none;
-}
-
-div li:hover {
-  background-color: rgb(45,54,142);
-  color: white
+.menu .pages {
+  position: absolute;
+  height: 10px;
+  display: flex;
+  flex-direction: row;
+  margin-top: -40%;
+  margin-left: 31%;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
 }
 
 div h5 {
@@ -107,4 +95,108 @@ div h5 {
   color: rgb(45,54,142);
   text-align: center;
   line-height: 1.5em;
+}
+
+.header {
+  display: flex;
+  position: absolute;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  width: 45%;
+  height: 160px;
+  margin-top: 02.5%;
+  margin-left: 200px;
+  align-items: flex-start;
+  background-color: #4D4C7D;
+  border-radius: 05px;
+}
+
+.imagen {
+  width:20%;
+  margin-left: 2.5%;
+}
+
+.logo {
+  margin-top: .5%;
+  margin-left: 0%;
+  width: 09%;
+  height: 92%;
+}
+    
+.header .title {
+    font-family: architecture;
+    flex-wrap: nowrap;
+    font-variant: small-caps;
+    color: white;
+    text-align:start;
+    position: absolute;
+    top: 15px;
+    left: 70px;
+    width: 80%;
+    }
+
+.h1 {
+    font-size: 3.5em;
+    line-height: 1em;
+    font-weight: normal;
+}
+
+.header .subtitle {
+    font-family: metrostyle;
+    flex-wrap: nowrap;
+    color: white;
+    text-align:start;
+    position: absolute;
+    top: 53%;
+    left: 13%;
+    width: 80%;
+    }
+
+.h3 {
+  font-size: 1.75em;
+  line-height: 1em;
+  font-weight: light  
+}
+  
+  .contenido {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 25%;
+    height: 17%;
+    border-radius: 05px;
+    margin-top: -35%;
+    margin-bottom: 05%;
+    margin-left: 22.5%;
+    padding-top: 1.25%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    align-content: center;
+    background-color: #363062;
+    }
+
+.contenido p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+
+.smenu {
+  display:flex;
+  position: absolute;
+  align-content: space-around;
+  width: 25%;
+  height: 28%;
+  margin-top: -30%;
+  margin-left: 22.5%;
+  border-radius: 05px;
+  padding-top: 05px;
+  padding-bottom: 10px;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  background-color: #e9d5da;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #363062;
 }
