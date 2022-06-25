@@ -1,7 +1,15 @@
-@font-face { font-family: architecture; src: url("../assets/fonts/architrn.TTF"); } 
-@font-face { font-family: metrostyle; src: url("../assets/fonts/METR55W.TTF"); }
+@font-face {
+  font-family: architecture;
+  src: url("../assets/fonts/architrn.TTF");
+}
 
-body, html {
+@font-face {
+  font-family: metrostyle;
+  src: url("../assets/fonts/METR55W.TTF");
+}
+
+body,
+html {
   height: 100%;
   margin: 0;
 }
@@ -11,7 +19,7 @@ body, html {
   background-image: url("../assets/img/fondo.jpg");
 
   /* Full height */
-  height: 100%; 
+  height: 100%;
 
   /* Center and scale the image nicely */
   background-position: center;
@@ -46,18 +54,18 @@ body, html {
   position: absolute;
   margin-top: 20%;
   margin-left: 35%;
-  }
+}
 
-  .subtitulo {
-    font-family: metrostyle;
-    font-size: 1.5em;
-    font-weight: normal;
-    color: #4D4C7D;
-    text-align: start;
-    position: absolute;
-    margin-top: 23%;
-    margin-left: 40%;
-  }
+.subtitulo {
+  font-family: metrostyle;
+  font-size: 1.5em;
+  font-weight: normal;
+  color: #4D4C7D;
+  text-align: start;
+  position: absolute;
+  margin-top: 23%;
+  margin-left: 35%;
+}
 
 .menu {
   position: absolute;
@@ -93,7 +101,7 @@ div h5 {
   flex-wrap: nowrap;
   font-family: Arial, Helvetica, sans-serif;
   font-size: smaller;
-  color: rgb(45,54,142);
+  color: rgb(45, 54, 142);
   text-align: center;
   line-height: 1.5em;
 }
@@ -113,7 +121,7 @@ div h5 {
 }
 
 .imagen {
-  width:20%;
+  width: 20%;
   margin-left: 2.5%;
 }
 
@@ -124,58 +132,57 @@ div h5 {
   width: 9%;
   height: 92%;
 }
-    
+
 .header .title {
-    font-family: architecture;
-    flex-wrap: nowrap;
-    font-variant: small-caps;
-    color: white;
-    text-align:start;
-    position: absolute;
-    top: 15px;
-    left: 50px;
-    width: 80%;
-    }
+  font-family: architecture;
+  flex-wrap: nowrap;
+  font-variant: small-caps;
+  color: white;
+  text-align: start;
+  position: absolute;
+  top: 15px;
+  left: 50px;
+  width: 80%;
+}
 
 .h1 {
-    font-size: 3.5em;
-    line-height: 1em;
-    font-weight: normal;
+  font-size: 3.5em;
+  line-height: 1em;
+  font-weight: normal;
 }
 
 .header .subtitle {
-    font-family: metrostyle;
-    flex-wrap: nowrap;
-    color: white;
-    text-align:start;
-    position: absolute;
-    top: 53%;
-    left: 08%;
-    width: 80%;
-    }
+  font-family: metrostyle;
+  flex-wrap: nowrap;
+  color: white;
+  text-align: start;
+  position: absolute;
+  top: 53%;
+  left: 05.5%;
+  width: 80%;
+}
 
 .h3 {
   font-size: 1.75em;
   line-height: 1em;
-  font-weight: light  
+  font-weight: light
 }
-  
-  .contenido {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    width: 25%;
-    height: 17%;
-    border-radius: 05px;
-    margin-top: -35%;
-    margin-bottom: 05%;
-    margin-left: 22.5%;
-    padding-top: 1.25%;
-    padding-left: 2.5%;
-    padding-right: 2.5%;
-    align-content: center;
-    background-color: #363062;
-    }
+
+.contenido {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 25%;
+  border-radius: 05px;
+  margin-top: 20%;
+  margin-bottom: 05%;
+  margin-left: 35%;
+  padding-top: 1%;
+  padding-left: 2%;
+  padding-right: 2.5%;
+  align-content: center;
+  background-color: #363062;
+}
 
 .contenido p {
   font-family: Arial, Helvetica, sans-serif;
@@ -185,13 +192,13 @@ div h5 {
 }
 
 .smenu {
-  display:flex;
+  display: flex;
   position: absolute;
   align-content: space-around;
-  width: 25%;
+  width: 22.5%;
   height: 28%;
-  margin-top: -30%;
-  margin-left: 22.5%;
+  margin-top: 17%;
+  margin-left: 35%;
   border-radius: 05px;
   padding-top: 05px;
   padding-bottom: 10px;
