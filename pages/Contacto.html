@@ -35,16 +35,25 @@
     </div>
 
     <!--Contenedor 3: Cuerpo de la página-->
-    <div class="legend">
-      Contáctenos a través de nuestras redes sociales
+    <div class="legend">Contáctenos a través de nuestras redes sociales</div>
       <br />
       <br />
-      <img src="../assets/img/redes.png" width="160" />
+
+
+      <!--Redes-->
+    <div class="redes">
+      <a title="Facebook" href="http://www.Facebook.com"><img src="../assets/img/facebook.svg" alt="Facebook" /></a>
+      <a title="Twitter" href="http://www.Twitter.com"><img src="../assets/img/twitter.svg" alt="Twitter" /></a>
+      <a title="Instagram" href="http://www.Instagram.com"><img src="../assets/img/instagram.svg" alt="Instagram" /></a>
+      <a title="Linkedin" href="http://www.Linkedin.com"><img src="../assets/img/linkedin.svg" alt="Linkedin" /></a>
+      <a title="Telegram" href="http://www.Telegram.com"><img src="../assets/img/telegram.svg" alt="Telegram" /></a>
+      <a title="WhatsApp" href="http://www.whatsapp.com"><img src="../assets/img/whatsapp.svg" alt="WhatsApp" /></a>
+
     </div>
-    <br />
 
     <!-- Formulario -->
     <section class="formulario">
+      <div class="pregumtas">
       <form>
         <label for="nombre">
           Nombre y apellido
@@ -69,7 +78,7 @@
         </label>
         <br />
         <select>
-          <option selected="selected">Selecciona una Estado</option>
+          <option selected="selected">Selecciona un Estado</option>
           <option>Ciudad de México</option>
           <option>Interior de la república</option>
         </select>
@@ -96,7 +105,10 @@
         <input type="checkbox" name="otro" />
         <br />
         <label for="descrición">
-          Describa brevemente su proyecto
+        </div>
+
+        <div class="comentarios">
+        Describa brevemente su proyecto
         </label>
         <br />
         <textarea id="comentarios" rows="10" cols="60"></textarea>
@@ -104,6 +116,7 @@
         <input type="submit" />
         <input type="reset" />
       </form>
+    </div>
     </section>
 
     <!--Menú-->

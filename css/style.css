@@ -43,7 +43,6 @@ html {
   background-color: #4D4C7D;
 }
 
-
 .título {
   font-family: architecture;
   font-size: 3.5em;
@@ -95,7 +94,7 @@ div h5 {
   height: 10px;
   display: flex;
   flex-direction: column;
-  margin-top: 47.5%;
+  margin-top: 45%;
   margin-left: 27%;
   justify-content: space-evenly;
   flex-wrap: nowrap;
@@ -129,7 +128,7 @@ div h5 {
   padding: 0.5%;
   margin-top: .5%;
   margin-left: 0%;
-  width: 9%;
+  width: 8%;
   height: 92%;
 }
 
@@ -208,4 +207,126 @@ div h5 {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   color: #363062;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3 325px);
+  grid-template-areas: "flores gila plaza";
+  grid-column-gap: 10px;
+  position: absolute;
+  top: 20%;
+  left: 08%;
+  align-items: start;
+  align-content: start;
+  width: 975px;
+  margin-top: 60px;
+  margin-left: 100px;
+  border-radius: 05px;
+  align-items: center;
+}
+
+.flores {
+  grid-area: flores;
+  padding-top: 10px;
+  padding-left: 15px;
+  background-color: #4D4C7D;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.gila {
+  grid-area: gila;
+  padding-top: 10px;
+  padding-left: 10px;
+  background-color: #4D4C7D;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.plaza {
+  grid-area: plaza;
+  padding-top: 10px;
+  padding-left: 10px;
+  background-color: #4D4C7D;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.grid li {
+  font-family: Arial narrow;
+  color: white;
+  font-size: 15px;
+  padding-left: 0px;
+}
+
+.legend {
+  display: flex;
+  flex-flow: row;
+  position: absolute;
+  width: 40%;
+  height: 2em;
+  margin-top: 13%;
+  margin-left: 20%;
+  margin-bottom: 60px;
+  padding-top: 0.3%;
+  padding-left: 08%;
+  background-color: #363062;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+.redes {
+  width: 15%;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
+  position: absolute;
+  margin-top: 13%;
+  margin-left: 35%
+
+}
+
+.formulario {
+  display: grid;
+  grid-template-columns: repeat(2 600px);
+  grid-template-areas: "preguntas comentarios";
+  grid-column-gap: 15px;
+  position: absolute;
+  background-color: #e9d5da;
+  width: 70%;
+  height: 45%;
+  margin-top: 15%;
+  margin-left: 7%;
+  border-radius: 05px;
+  padding-top: 05px;
+  padding-bottom: 10px;
+  padding-left: 2.5%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #363062;
+}
+
+.preguntas {
+  grid-area: preguntas;
+  padding-left: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #4D4C7D;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.comentarios {
+  grid-area: comentarios;
+  padding-top: 08px;
+  padding-left: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #4D4C7D;
+  font-size: 18px;
 }
