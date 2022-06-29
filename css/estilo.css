@@ -1,0 +1,70 @@
+@charset "UTF-8";
+@font-face {
+  font-family: architecture;
+  src: url("../assets/fonts/architrn.TTF");
+}
+@font-face {
+  font-family: metrostyle;
+  src: url("../assets/fonts/METR55W.TTF");
+}
+body, html {
+  margin: 0;
+  height: 100%;
+}
+body .bg {
+  /* The image used */
+  background-image: url("../assets/img/fondo.jpg");
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cajita {
+  display: flex;
+  direction: start;
+  width: 60px;
+  height: 100px;
+  margin-top: 20%;
+  margin-left: 30%;
+  justify-content: center;
+  align-items: center;
+  padding-left: 3px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  position: absolute;
+  background-color: #4D4C7D;
+}
+
+.logo {
+  padding: 0.5%;
+  margin-top: 0.5%;
+  margin-left: 0%;
+  width: 8%;
+  height: 92%;
+}
+
+.título {
+  font-family: architecture;
+  font-size: 3.5em;
+  line-height: 1em;
+  font-variant: small-caps;
+  color: #4D4C7D;
+  text-align: start;
+  position: absolute;
+  margin-top: 20%;
+  margin-left: 35%;
+}
+
+.subtitulo {
+  font-family: metrostyle;
+  font-size: 1.5em;
+  font-weight: normal;
+  color: #4D4C7D;
+  text-align: start;
+  position: absolute;
+  margin-top: 23%;
+  margin-left: 35%;
+}/*# sourceMappingURL=estilo.css.map */
